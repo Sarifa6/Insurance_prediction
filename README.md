@@ -1,11 +1,7 @@
 # Health Care Insurance Premium Prediction
 
-![insurance_premium_poster](/images/insurance_premium_poster.jpg)
-
 ## Context
 Now a days,  healthcare firms utilize personal health data of insurance holders to predict individual health insurance premiums. The premium amount varies from person to person, as numerous factors influence the cost of a health insurance policy. For instance, age plays a significant role, where younger individuals are less likely to have major health problems compared to older ones, leading to higher treatment expenses for older individuals. Consequently, older individuals are required to pay higher premiums than younger ones. Apart from age, several other factors also impact health insurance premiums.
-
-![insurance_premium_context](/images/insurance_premium_context.jpg)
 
 ## Content
 We have developed a comprehensive system that utilizes various techniques to estimate the required amount of insurance premium based on individual health situations. The dataset consists of 1338 records with 7 attributes, and the data is stored in a structured format within a CSV file.
@@ -18,13 +14,9 @@ This project aims to predict an individual's medical bill expenses based on thei
 
 ## __There is rise in demand for Health Care Insurance Premium in the recent years !!__
 
-![rise in demand for insurance premium](/images/rising_demand.jpg)
-
 - According to a study by the Peterson Center on Healthcare and the Kaiser Family Foundation (KFF), __U.S. healthcare spending rose nearly a trillion dollars from 2009 to 2019,__ when adjusted for inflation.
 - A recent study reported that __U.S. healthcare spending during 2019 was nearly $3.8 trillion, or $11,582 per person__. By 2028, these costs are expected to climb to $6.2 trillion—roughly $18,000 per person.
 - According to the American Medical Association (AMA), __healthcare costs are rising by about 4.5% a year.__
-
-![Investopedia page](/images/rising_cost_insurance.jpg)
 
 ## Objective
 The primary objective of this project is to create an application that predicts medical expenses for individuals based on their health information. This prediction is achieved using machine learning-based regression models on input data. The proposed solution aims to estimate insurance premiums based on people's health data, providing valuable insights for insurance companies and individuals.
@@ -84,7 +76,3 @@ Simply run the following commands on command line and let it do the magic
 pip3 install -r requirements.txt
 streamlit run app.py
 ```
-
-__This is how our Streamlit Application looks:__
-
-![streamlitapp page](/images/app_1.jpg)
